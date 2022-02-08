@@ -1,0 +1,7 @@
+game.StarterGui:SetCore("SendNotification", {Title="Detecting game...."; Text="Zero"; Duration=3;})
+wait(4)
+if game.PlaceId == 1517087504 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexRBLXDev/ZeroHub/main/zerohub_universal.lua"))()
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexRBLXDev/ZeroHub/main/zerohub_universal.lua"))()
+end
